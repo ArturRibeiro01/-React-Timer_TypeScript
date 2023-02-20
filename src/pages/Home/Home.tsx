@@ -42,8 +42,6 @@ export const Home = () => {
     reset()
   }
 
-  console.log('art', cycles)
-
   const task = watch('task')
   const isSubmitDisabled = !task
 
